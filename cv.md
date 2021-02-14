@@ -38,3 +38,18 @@ const func = (num) => {
   return num + 1;
 };
 ```
+### Experince
+
+empty
+
+### Aducation
+
+| Year | Name                  | What studied            |
+| ---- | --------------------- | ----------------------- |
+| 2021 | 2English              | English language school |
+| 2019 | Stormnet              | It academy              |
+| 2016 | BIP-University of law | Jurisprudence           |
+
+### English level
+
+A2(PreIntermediate) - Aducation in 2English curse

@@ -5,41 +5,131 @@
 }
 
 body {
-  background: #f5f7fa;
+  font-family: "Poppins";
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 0;
   padding-top: 40px;
 }
 
 .wrapper {
-  background: #ffffff;
-  max-width: 900px;
+  display: flex;
+  max-width: 1000px;
   margin: 0 auto;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
-.contacts-and-photo {
-  padding-left: 5px;
-  padding-top: 5px;
-  display: flex;
+.sidebar {
+  width: 300px;
+  background: #393c46;
 }
 
 .photo {
   width: 300px;
 }
 
-.name-born {
-  padding-top: 70px;
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-bottom: 90px;
+.contacts-container {
+  margin-top: 30px;
+}
+
+.squre {
+  background: #e5c02d;
+  width: 27px;
+  height: 35px;
+  float: left;
+}
+
+.contats-title {
+  background: #454953;
+  color: #ffffff;
+  margin-bottom: 30px;
+  padding-left: 50px;
+}
+
+.contacts-links-container {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  list-style-type: none;
+}
+
+.contacts-links {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.contacts-messenger {
+  color: #8e949c;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.education-container {
+  background: #2c323d;
+  padding-top: 35px;
+  margin-top: 30px;
+}
+
+.squre-2 {
+  background: #e5c02d;
+  width: 27px;
+  height: 35px;
+  float: left;
+}
+
+.universit-title {
+  background: #454953;
+  color: #ffffff;
+
+  margin-bottom: 30px;
+  padding-left: 50px;
+}
+
+.university {
+  margin-left: 50px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h4 {
+  margin: 0;
+}
+
+.university:last-child {
+  padding-bottom: 30px;
+  margin-bottom: 35px;
+}
+
+.univessity-name {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.languges {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 50px;
+  list-style-type: none;
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+header {
+  margin-left: 50px;
+  margin-top: 65px;
+  margin-bottom: 137px;
 }
 
 .name {
-  font-size: 45px;
-  font-weight: 700;
-  line-height: 50px;
+  color: #363636;
+  font-size: 55px;
+  margin: 0;
 }
 
 .born {
@@ -49,50 +139,62 @@ body {
   line-height: 24px;
 }
 
-.Contacts {
-  padding-bottom: 17px;
-  padding-top: 20px;
+.main-block {
+  margin-bottom: 40px;
 }
-.items {
+
+.squre-3 {
+  background: #e5c02d;
+  width: 18px;
+  height: 35px;
+  float: left;
+}
+
+.main-head {
+  padding-left: 50px;
+  background: #ebebeb;
+  color: #363636;
+  margin-bottom: 30px;
+}
+
+.description {
+  padding-left: 50px;
+  color: #555555;
+  padding-right: 70px;
+  font-size: 14px;
+}
+
+.knowledge {
   list-style-position: inside;
-  padding-inline-start: 20px;
-}
-.tools-items {
-  line-height: 24px;
 }
 
-.every-container {
-  padding-left: 20px;
-  padding-bottom: 15px;
+footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
 }
 
-.every-container-padding {
-  padding-bottom: 16px;
+.social {
+  margin-right: 50px;
+  margin-bottom: 0;
 }
 
-.code {
-  background-color: #f6f8fa;
-  border-radius: 3px;
-  max-width: 815px;
+.github {
+  width: 120px;
+  margin-top: 29px;
 }
 
-table {
-  border-collapse: collapse;
-  border: 1px solid gray;
-  border-spacing: 0;
-  width: 432px;
-  margin-left: 18px;
-}
-th {
-  border: 1px solid gray;
-  padding: 8px;
+.rsschool {
+  width: 120px;
+  margin-top: 36px;
 }
 
-td {
-  border: 1px solid gray;
-  padding: 8px;
+.youtube {
+  width: 120px;
+  margin-top: 54px;
 }
 
-.last-conteiner {
-  padding-bottom: 50px;
+.footeryear {
+  margin-left: 430px;
+  margin-top: 51px;
 }

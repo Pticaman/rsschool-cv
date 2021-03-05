@@ -5,119 +5,149 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/styles.css">
   <title>Sokol Roman | rsschool-cv</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- main -->
   <div class="wrapper">
-    <!-- contats and photo -->
-    <header class="contacts-and-photo">
-      <div>
-        <img class="photo" src="./img/myphoto.jpg" alt="My photo">
-      </div>
-      <div class="name-born">
-        <h1 class="name">Sokol Roman</h1>
-        <span class="born">26.03.1992</span>
-        <span class="born">Minsk, Belarus</span>
+    <aside class="sidebar">
+      <img class="photo" src="./img/myphoto.jpg" alt="My photo">
 
-        <h3 class="Contacts">Contacts:</h3>
-        <ul class="items">
-          <li>
-            <span>tel:</span> <a href="tel:+37529-250-70-72">+37529-250-70-72</a>
-            <span>(<a href="viber://chat?number=375292507072">Viber</a>,
-              <a href="https://t.me/Pticaman">Telegram</a>)</span>
-          </li>
-          <li>
-            <span>email:</span> <a href="mailto:socolroman@gmail.com">socolroman@gmail.com</a>
-          </li>
-          <li>
-            <span>GitHub:</span> <a href="https://github.com/Pticaman">https://github.com/Pticaman</a>
-          </li>
+      <section class="contacts-container">
+
+        <div class="squre"></div>
+        <h2 class="contats-title">Contacts</h2>
+
+
+        <ul class="contacts-links-container">
+          <li><a class="contacts-links" href="tel:+37529-250-70-72">+37529-250-70-72</a><span
+              class="contacts-messenger">
+              (<a class="contacts-messenger" href="viber://chat?number=375292507072">Viber</a>,<a
+                class="contacts-messenger" href="https://t.me/Pticaman">Telegram</a>)</li>
+          <li><a class="contacts-links" href="mailto:socolroman@gmail.com">socolroman@gmail.com</a></li>
         </ul>
-      </div>
-    </header>
 
-    <!-- about me -->
-    <div class="every-container">
-      <h2 class="every-container-padding">About me</h2>
+      </section>
 
-      <span>I want to start a career in front-end development. I'm ready to study and work a
-        lot of time.</span>
+      <section class="education-container">
+
+        <div class="squre-2"></div>
+        <h2 class="universit-title">Education</h2>
+
+
+        <div class="university">
+          <h4>2020-2021</h4>
+          <p class="univessity-name">2English</p>
+          <span>English language school</span>
+        </div>
+
+        <div class="university">
+          <h4>2019</h4>
+          <p class="univessity-name">Stormnet IT-academy</p>
+          <span>Testing</span>
+        </div>
+
+        <div class="university">
+          <h4>2011-2016</h4>
+          <p class="univessity-name">BIP-University of law</p>
+          <span>Jurisprudence</span>
+        </div>
+
+      </section>
+
+
+
+      <section>
+        <div class="squre"></div>
+        <h2 class="contats-title">Languages</h2>
+        <ul class="languges">
+          <li>Russain - native</li>
+          <li>Belarusian - native</li>
+          <li>English - B1(Pre-Intermediate)</li>
+        </ul>
+
+      </section>
+
+    </aside>
+
+    <div>
+      <header>
+        <h1 class="name">Sokol Roman</h1>
+        <span class="born">26.03.1992 Minsk, Belarus</span>
+      </header>
+
+      <main>
+        <div class="main-block">
+          <div class="squre-3"></div>
+          <h2 class="main-head">About me</h2>
+          <p class="description">I want to start a career in front-end development. I'm ready to study and work a lot of
+            time.</p>
+        </div>
+
+        <div class="main-block">
+          <div class="squre-3"></div>
+          <h2 class="main-head">My personal qualities</h2>
+          <p class="description">Independence, initiative, resistance to stress, energy, responsibility, ability to work
+            in a team,
+            attentiveness,
+            mobility, creativity.</p>
+        </div>
+
+        <div class="main-block">
+          <div class="squre-3"></div>
+          <h2 class="main-head">Technologies and tools</h2>
+          <ul class="description knowledge">
+            <li>Basic knowledge HTML/CSS</li>
+            <li>Basic knowledge SQL</li>
+            <li>Understanding of the client-server architecture</li>
+            <li>Git and GitHub</li>
+          </ul>
+        </div>
+
+        <div class="main-block">
+          <div class="squre-3"></div>
+          <h2 class="main-head">Example of code</h2>
+          <code class="description">const func = (num) => {
+          if (num > 0) {
+          return num - 1;
+          }
+          return num + 1;
+          };</code>
+        </div>
+
+        <div class="main-block">
+          <div class="squre-3"></div>
+          <h2 class="main-head">Experince</h2>
+        </div>
+
+      </main>
+
     </div>
 
-    <div class="every-container">
-      <h2 class="every-container-padding">My personal qualities</h2>
-      <span>Independence, initiative, resistance to stress, energy, responsibility, ability
-        to work in a team, attentiveness, mobility, creativity.</span>
-    </div>
-
-    <div class="every-container">
-      <h2 class="every-container-padding"> Technologies and tools:</h2>
-      <ul class="items">
-        <li class="tools-items"> Basic knowledge HTML/CSS</li>
-        <li class="tools-items"> Basic knowledge SQL</li>
-        <li class="tools-items">Understanding of the client-server architecture</li>
-        <li class="tools-items"> Git and GitHub</li>
-      </ul>
-    </div>
-
-    <div class="every-container">
-      <h2 class="every-container-padding">Exaple of code</h2>
-
-      <pre class="code">
-      <code>
-        const func = (num) => {
-        if (num > 0) {
-        return num - 1;
-        }
-        return num + 1;
-        };
-      </code>
-    </pre>
-    </div>
-
-    <div class="every-container">
-      <h2 class="every-container-padding">Experince</h2>
-      <!-- empty -->
-    </div>
-
-
-    <div class="every-container">
-      <h2 class="every-container-padding">Aducation</h2>
-      <table>
-        <thead>
-          <th>Year</th>
-          <th>Name</th>
-          <th>What studied</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td>2021</td>
-            <td>2English</td>
-            <td>English language school</td>
-          </tr>
-
-          <tr>
-            <td>2019</td>
-            <td>Stormnet It academy</td>
-            <td>Testing</td>
-          </tr>
-          <tr>
-            <td>2016</td>
-            <td>BIP-University of law</td>
-            <td>Jurisprudence</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="every-container last-conteiner">
-      <h2 class="every-container-padding">English level</h2>
-      <span>A2(PreIntermediate) - Aducation in 2English curse</span>
-    </div>
   </div>
+  <footer>
+    <div class="social">
+      <a href="https://github.com/Pticaman"><img class="github" src="./img/github1.png" alt="My GitHub"></a>
+    </div>
+
+    <div class="social">
+      <a href="https://rs.school/js/"><img class="rsschool" src="./img/rs_school_js.svg" alt="rs school"></a>
+    </div>
+
+    <div class="social">
+      <a href="#"><img class="youtube" src="./img/youtube.png" alt="youtube"></a>
+    </div>
+
+
+    <h2 class="footeryear">2021</h2>
+
+  </footer>
+
+
 </body>
 
 </html>

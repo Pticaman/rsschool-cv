@@ -172,8 +172,12 @@ footer {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 
+.social-container {
+  display: flex;
+}
 .social {
   margin-right: 50px;
   margin-bottom: 0;
@@ -181,20 +185,19 @@ footer {
 
 .github {
   width: 120px;
-  margin-top: 29px;
+  margin-top: 10px;
 }
 
 .rsschool {
   width: 120px;
-  margin-top: 36px;
+  margin-top: 15px;
 }
 
 .youtube {
   width: 120px;
-  margin-top: 54px;
+  margin-top: 35px;
 }
 
 .footeryear {
-  margin-left: 430px;
-  margin-top: 51px;
+  margin-top: 25px;
 }
